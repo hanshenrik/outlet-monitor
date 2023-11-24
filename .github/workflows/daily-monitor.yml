@@ -17,6 +17,7 @@ jobs:
           record: true
           parallel: true
         env:
+          BASE_URL_OUTLET_A: ${{ vars.BASE_URL_OUTLET_A }}
           # pass the Cypress Cloud record key as an environment variable
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           # pass GitHub token to allow accurately detecting a build vs a re-run build
