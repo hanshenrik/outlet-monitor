@@ -1,5 +1,5 @@
 describe('Check for new results in outlets', () => {
-  const baseUrl = process.env.BASE_URL_OUTLET_A;
+  const baseUrl = Cypress.env('BASE_URL_OUTLET_A');
   const locations =
     'locationName=lil-b&locationName=osl-210b&locationName=osl-215b&locationName=osl-217b&locationName=osl-221b&locationName=osl-228b&locationName=osl-231b&locationName=osl-b';
   const room = 'room=belysning';
