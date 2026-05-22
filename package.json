@@ -10,7 +10,7 @@
   "author": "Hans Henrik Grønsleth",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^13.6.0",
+    "cypress": "^15.15.0",
     "prettier": "3.1.0"
   }
 }
